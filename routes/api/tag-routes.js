@@ -7,7 +7,7 @@ router.get("/", async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
   try {
-    const tags = await Category.findAll({
+    const tags = await Tag.findAll({
       include: [
         {
           model: Product,
@@ -24,7 +24,7 @@ router.get("/:id", async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   try {
-    const productID = await Product.findOne({
+    const productID = await Tag.findOne({
       where: {
         id: req.param.id,
       },
@@ -42,7 +42,7 @@ router.get("/:id", async (req, res) => {
 router.post("/", async (req, res) => {
   // create a new tag
   try {
-    const tagData = await Category.create(req.body);
+    const tagData = await Tag.create(req.body);
     res.json(tagData);
   } catch (error) {
     res.status(500).end(error);
