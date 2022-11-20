@@ -11,13 +11,14 @@ This is an E-commerce backend utilizing node.js, an express.js server and a SQL 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](./LICENSE-APACHE.md)
-- [Contributing](#contributing)
-- [Test](#Test)
-- [Questions](#questions)
 
 ## Installation
 
 Install all the dependencies listed in the package.json file. Ensure to setup a mysql login and download mysql to your computer. You will need to load your credentials in a .env file on your computer.
+
+## License
+
+    This application is covered by the APACHE license.
 
 ## Usage
 
