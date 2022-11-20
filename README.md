@@ -1,13 +1,27 @@
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
+# E-Commerce Back End
 
-## Your Task
+![Badge](https://img.shields.io/badge/License-APACHE-blue.svg)
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
+## Description
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+This is an E-commerce backend utilizing node.js, an express.js server and a SQL database. It utilizes sequelize as its ORM tool to interact with the database. Insomnia is used since this is only a backend application.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+## Table of Content
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](./LICENSE-APACHE.md)
+- [Contributing](#contributing)
+- [Test](#Test)
+- [Questions](#questions)
+
+## Installation
+
+Install all the dependencies listed in the package.json file. Ensure to setup a mysql login and download mysql to your computer. You will need to load your credentials in a .env file on your computer.
+
+## Usage
+
+After installation, run nodemon server from the command line.
 Drive: https://drive.google.com/file/d/1d7SqbWqPvponIKPu5LIiULxUGO2uX1zo/view?usp=sharing
 
 ## User Story
