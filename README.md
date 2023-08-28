@@ -4,7 +4,7 @@
 
 ## Description
 
-This is an E-commerce backend utilizing node.js, an express.js server and a SQL database. It utilizes sequelize as its ORM tool to interact with the database. Insomnia is used since this is only a backend application.
+This is an E-commerce backend utilizing node.js, an express.js server, and a SQL database. It utilizes sequelize as its ORM tool to interact with the database. Insomnia is used since this is only a backend application.
 
 ## Table of Content
 
@@ -22,7 +22,11 @@ Install all the dependencies listed in the package.json file. Ensure to setup a 
 
 ## Usage
 
-After installation, run nodemon server from the command line.
+After `npm i` installation, run:
+
+
+`nodemon server` and open a link to http://localhost:3301/api
+
 Drive: https://drive.google.com/file/d/1d7SqbWqPvponIKPu5LIiULxUGO2uX1zo/view?usp=sharing
 
 ## User Story
